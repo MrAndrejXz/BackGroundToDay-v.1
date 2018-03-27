@@ -1,0 +1,16 @@
+c:\documents\visual studio 2013\Projects\Alfa\BackGroundToDay\BackGroundToDay\bin\Debug\BackGroundToDay.exe.config
+c:\documents\visual studio 2013\Projects\Alfa\BackGroundToDay\BackGroundToDay\obj\Debug\BackGroundToDay.Properties.Resources.resources
+c:\documents\visual studio 2013\Projects\Alfa\BackGroundToDay\BackGroundToDay\obj\Debug\BackGroundToDay.csproj.GenerateResource.Cache
+c:\documents\visual studio 2013\Projects\Alfa\BackGroundToDay\BackGroundToDay\bin\Debug\BackGroundToDay.exe
+c:\documents\visual studio 2013\Projects\Alfa\BackGroundToDay\BackGroundToDay\bin\Debug\BackGroundToDay.pdb
+c:\documents\visual studio 2013\Projects\Alfa\BackGroundToDay\BackGroundToDay\obj\Debug\BackGroundToDay.exe
+c:\documents\visual studio 2013\Projects\Alfa\BackGroundToDay\BackGroundToDay\obj\Debug\BackGroundToDay.pdb
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay\BackGroundToDay\obj\Debug\BackGroundToDay.csprojResolveAssemblyReference.cache
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\bin\Debug\BackGroundToDay.exe.config
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\obj\Debug\BackGroundToDay.exe
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\obj\Debug\BackGroundToDay.pdb
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\bin\Debug\BackGroundToDay.exe
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\bin\Debug\BackGroundToDay.pdb
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\obj\Debug\BackGroundToDay.csprojResolveAssemblyReference.cache
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\obj\Debug\BackGroundToDay.Properties.Resources.resources
+C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\obj\Debug\BackGroundToDay.csproj.GenerateResource.Cache
