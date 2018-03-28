@@ -4,7 +4,6 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Drawing;
 using Microsoft.Win32;
-using System.Windows.Forms;
 
 namespace BackGroundToDay
 {
@@ -93,16 +92,9 @@ namespace BackGroundToDay
         /// </summary>
         static void CreateFolder()
         {
-            try
+            if (!Directory.Exists(path))
             {
-                if (!Directory.Exists(path))
-                {
-                    Directory.CreateDirectory(path);
-                }
-            }catch(Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.ToString(), "Ошибка создания папки");
-                Environment.Exit(0); 
+                Directory.CreateDirectory(path);
             }
         }
         
@@ -113,32 +105,13 @@ namespace BackGroundToDay
         {
             if (delete)
             {
-                try
+                // Удаление всех, кроме текущей
+                var x = System.IO.Directory.GetFiles(path);
+                foreach (var i in x)
                 {
-                    // Удаление всех, кроме текущей
-                    var x = System.IO.Directory.GetFiles(path);
-                    foreach (var i in x)
-                    {
-                        if (!i.Contains(DateTime.Now.ToShortDateString()))
-                            System.IO.File.Delete(i);
-                    }
-                }catch(Exception ex)
-                {
-                    System.Windows.Forms.MessageBox.Show(ex.ToString(), "Ошибка удаления");
-                    Environment.Exit(0);
+                    if (!i.Contains(DateTime.Now.ToShortDateString()))
+                        System.IO.File.Delete(i);
                 }
-            }
-        }
-
-        static void SaveBtp(Bitmap source)
-        {
-            try
-            {
-                source.Save(path + @"\WallPaper_" + DateTime.Now.ToShortDateString() + ".bmp", System.Drawing.Imaging.ImageFormat.Bmp);
-            }catch(Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.ToString(), "Ошибка сохранения");
-                Environment.Exit(0);
             }
         }
 
@@ -151,7 +124,7 @@ namespace BackGroundToDay
             // Создаем папку для сохранения
             CreateFolder();
             // Сохраняем картинку
-            SaveBtp(source);
+            source.Save(path + @"\WallPaper_" + DateTime.Now.ToShortDateString() + ".bmp", System.Drawing.Imaging.ImageFormat.Bmp);
             // Устанавливаем фон
             SetWallPaper(path + @"\WallPaper_" + DateTime.Now.ToShortDateString() + ".bmp");
             // Удаляем все, кроме текущего

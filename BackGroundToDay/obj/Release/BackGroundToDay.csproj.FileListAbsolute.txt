@@ -14,11 +14,3 @@ C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)
 C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\obj\Release\BackGroundToDay.csproj.GenerateResource.Cache
 C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\bin\Release\BackGroundToDay.exe
 C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay — копия (2)\BackGroundToDay\bin\Release\BackGroundToDay.pdb
-C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay v.1\BackGroundToDay\bin\Release\BackGroundToDay.exe.config
-C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay v.1\BackGroundToDay\obj\Release\BackGroundToDay.exe
-C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay v.1\BackGroundToDay\obj\Release\BackGroundToDay.pdb
-C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay v.1\BackGroundToDay\bin\Release\BackGroundToDay.exe
-C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay v.1\BackGroundToDay\bin\Release\BackGroundToDay.pdb
-C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay v.1\BackGroundToDay\obj\Release\BackGroundToDay.csprojResolveAssemblyReference.cache
-C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay v.1\BackGroundToDay\obj\Release\BackGroundToDay.Properties.Resources.resources
-C:\Documents\Visual Studio 2013\Projects\Alfa\BackGroundToDay v.1\BackGroundToDay\obj\Release\BackGroundToDay.csproj.GenerateResource.Cache
