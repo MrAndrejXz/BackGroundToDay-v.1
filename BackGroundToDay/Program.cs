@@ -142,8 +142,31 @@ namespace BackGroundToDay
             }
         }
 
+        /// <summary>
+        /// Копирует себя в автозагрузку
+        /// </summary>
+        static void AutoCopy()
+        {
+            // Определяем папку автозагрузки
+            var startup = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + System.Windows.Forms.Application.ProductName + ".exe";
+            // Проверка, на существование
+            if (File.Exists(startup))
+                return;
+            // Путь к исполняемому exe
+            var exe = System.Windows.Forms.Application.ExecutablePath;
+           // Пробуем сохранить
+            try
+            {
+                File.Copy(exe, startup);
+            }catch(Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.ToString(), "ОШибка добавления в автозагрузку");
+            }
+        }
+
         static void Func()
         {
+            AutoCopy();
             // Загружаем картинку
             Bitmap source = DownloadImage();
             // Обрезаем картинку
